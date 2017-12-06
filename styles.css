@@ -1,13 +1,20 @@
 .image {
-  text-align: center;
+  display: block;
+  margin: auto;
+  width: 20%;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
+.body {
+
+}
 .about {
 
 }
 
 .store {
-
+  color: red;
 }
 
 .gmail {

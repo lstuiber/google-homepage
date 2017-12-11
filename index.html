@@ -4,20 +4,23 @@
   <title>Google</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
   <nav>
-
-    <p class="about">About</p>
-    <p class="store">Store</p>
-    <p class="gmail">Gmail</p>
-    <p class="images">Images</p>
+<ul>
+    <li class="about">About</li>
+    <li class="store">Store</li>
+    <li class="gmail">Gmail</li>
+    <li class="images">Images</li>
+  </ul>
   </nav>
 </head>
 <body>
 <div class="flex-container">
   <img class="image" src="C:\Users\lucas\Documents\The-Odin-Project\google.png">
-  <form class="search" type="text" name="search">
-    <input type="submit" value="Google Search">
-    <input type="submit" value="I'm Feeling Lucky">
-  </form>
+  <div><form type="text" name="search">
+    <div class="inputs"> <input  type="text"></div>
+    <div class="search"><input type="submit" value="Google Search"></div>
+    <div class="lucky"><input type="submit" value="I'm Feeling Lucky"></div>
+
+  </form></div>
     <p>Create your own Google logo with code</p>
   </div>
 </body>

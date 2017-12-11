@@ -1,9 +1,5 @@
 .image {
-  display: block;
-  margin: auto;
-  width: 20%;
-  padding-top: 100px;
-  padding-bottom: 50px;
+
 }
 
 .body {
@@ -25,8 +21,24 @@
 
 }
 
+.search .lucky {
+
+}
+
+li.about li.store {
+  float: left;
+}
+
+li.gmail li.images {
+  float: right;
+}
+li{
+  display: inline;
+  padding: 8px;
+}
+
 .flex-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
 }

@@ -1,46 +1,84 @@
-.image {
-
+.header {
+display: inline-block;
+width: 100%;
+margin: 0;
+padding: 0;
 }
 
-.body {
-
-}
-.about {
-
+ul {
+  list-style:  none;
 }
 
-.store {
-  color: red;
-}
-
-.gmail {
-
-}
-
-.images {
-
-}
-
-.search .lucky {
-
-}
-
-li.about li.store {
-  float: left;
-  width: 20%;
-}
-
-li.gmail li.images {
-  float: right;
-  width: 30%
-}
-li{
+li {
+  font-family: arial;
+  font-size: 14px;
   display: inline;
-  padding: 8px;
+}
+li.left {
+  float: left;
+  display: block;
+  text-align: center;
+  margin-left: -20px;
+  padding-right: 40px;
 }
 
-.flex-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+li.right  {
+  float: right;
+  display: block;
+  text-align: center;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 45%;
+/*  border: 1px solid red; */
+  z-index: -1;
+}
+form {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-right: auto;
+  margin-top: -150px;
+}
+
+form input {
+  width: 350px;
+  height: 25px;
+  font-size: 16px;
+}
+
+.buttons {
+  padding-top: 10px;
+  border-radius: 2px;
+  text-align: center;
+margin-left: 600px;
+}
+
+.search , .lucky {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #737373;
+  border: none;
+  margin: 5px 15px;
+  float: left;
+  position: relative;
+  z-index: 1;
+}
+
+.foot {
+  position: absolute;
+  display: inline-block;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 10px;
+  background-color: #f3f3f3;
 }

@@ -3,28 +3,38 @@
 <head>
   <title>Google</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
-  <nav>
-<ul>
-    <li class="about">About</li>
-    <li class="store">Store</li>
-    <li class="gmail">Gmail</li>
-    <li class="images">Images</li>
+  <nav class="header">
+<ul class="left">
+    <li class="left">About</li>
+    <li class="left">Store</li>
+    <li class="right">Gmail</li>
+    <li class="right">Images</li>
   </ul>
   </nav>
 </head>
 <body>
-<div class="flex-container">
-  <img class="image" src="C:\Users\lucas\Documents\The-Odin-Project\google.png">
-  <div><form type="text" name="search">
-    <div class="inputs"> <input  type="text"></div>
-    <div class="search"><input type="submit" value="Google Search"></div>
-    <div class="lucky"><input type="submit" value="I'm Feeling Lucky"></div>
+<div class="body">
+  <div class="pic"><img class="image" src="C:\Users\lucas\Documents\The-Odin-Project\google.png"></div>
+  <div class="form"><form type="text" name="search">
+    <div class="inputs"> <input  type="text"></div></form>
+    <div class="buttons">
+    <div ><button type="button" class="search">Google Search</button></div>
+    <div ><button type="button" class="lucky">I'm Feeling Lucky</button></div>
+  </div>
 
-  </form></div>
-    <p>Create your own Google logo with code</p>
+  </div>
   </div>
 </body>
 <footer>
+  <div class="foot"><ul class="l">
+    <li class="left">Advertising</li>
+    <li class="left">Business</li>
+  </ul>
+  <ul class="r">
+    <li class="right">Privacy</li>
+    <li class="right">Terms</li>
+    <li class="right">Settings</li>
+  </ul>
 </footer>
 
 </html>
